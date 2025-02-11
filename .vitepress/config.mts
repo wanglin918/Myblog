@@ -4,6 +4,7 @@ import sidebar from './sidebar.mjs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/Myblog/",
   title: "My Awesome Project",
   description: "A VitePress Site",
   srcDir: "docs",
